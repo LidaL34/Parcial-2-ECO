@@ -153,6 +153,11 @@ _____________________________________________ */
 socket.on('arduino-message', (arduinoMessages) => {
 
     console.log ('Received Message:',arduinoMessages)
+
+    // En esta parte creamos las variables que van a almacenar los valores que vienen del los inputs del arduino
+    // Para poder realizar el movimiento tanto de la barra como el ajuste de la velocidad y el tamaño
+    // Tambien se optinen los valores del puntage en tiempo real del usuario para luego guardarlo en la variable score
+    // Estos datos nos permitiran programar los led  y el resumen del putnaje de la partida
     
 })
 
